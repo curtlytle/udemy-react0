@@ -34,6 +34,7 @@ const INITIAL_EXPENSES = [
 const App = () => {
     const [expenseList, setExpenseList] = useState(INITIAL_EXPENSES);
 
+
     const addExpenseHandler = expense => {
         console.log('In App.js react...');
         console.log(expense);
